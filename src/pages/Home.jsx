@@ -1,10 +1,14 @@
 import React from 'react';
+import Bannar from '../components/Bannar';
+import WhyUs from '../components/WhyUs';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
-            <button className="btn btn-secondary">Secondary</button>
+            <Bannar></Bannar>
+            <WhyUs/>
+            <Testimonials/>
         </div>
     );
 };

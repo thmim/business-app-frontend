@@ -6,6 +6,8 @@ import { router } from './routes/Router.jsx'
 import { RouterProvider } from "react-router/dom";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <div className='public-sans'>
+      <RouterProvider router={router} />
+    </div>
   </StrictMode>,
 )

@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+.public-sans {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+}
 
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #1E40AF;
-  --color-secondary: #3B82F6;
-  /* --color-base-100: #F3F4F6; */
+  --color-primary: #212B36; 
+  --color-secondary: #637381;
+  /* --color-base: #9BFF961A; */
   /* --color-base-200: #111827; */
   /* --color-base-300: #000000; */
   --color-accent: #3BA334;
   /* --color-accent-content: #ffffff; */
-  /* --color-neutral: #ffffff; */
+  --color-neutral: #ECFCEB;
 
 
 }
